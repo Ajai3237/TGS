@@ -149,3 +149,28 @@ input[type="checkbox"]:checked+.accordion-label+.content {
   color: #f0f0f0;
   letter-spacing: 1.5px;
 }
+
+
+/*  clients card */
+  @keyframes marquee {
+      0% {
+        transform: translateX(0%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+    @keyframes marquee2 {
+      0% {
+        transform: translateX(105%);
+      }
+      100% {
+        transform: translateX(0%);
+      }
+    }
+    .animate-marquee {
+      animation: marquee 19s linear infinite;
+    }
+    .animate-marquee2 {
+      animation: marquee2 19s linear infinite;
+    }
