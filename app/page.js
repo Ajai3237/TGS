@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <Header />
 
-      <div
+      <div 
         style={{
           width: "100%", height: "750px", position: "relative", backgroundImage: "url('/Assets/pexels-jakubzerdzicki-16071270.jpg')",
           backgroundSize: "cover", backgroundPosition: "center",
