@@ -295,7 +295,7 @@ export default function Home() {
           <div
             style={{
               width: "400px",
-              height: "266px",
+              height: "265px",
               backgroundColor: "#fff",
               borderRadius: "10px",
               boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
