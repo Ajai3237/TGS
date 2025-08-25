@@ -1,6 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeadset, faShieldAlt, faThLarge, faClipboardList, faWindowRestore, faGlobe, faCloud } from '@fortawesome/free-solid-svg-icons'
+import { motion } from "framer-motion";
 
 function About() {
     return (
@@ -161,13 +162,33 @@ function About() {
             {/* parallax */}
             <div className="parallax">
                 <div style={{ maxWidth: "1190px", margin: "0 auto" }} className="parallax-content flex-1 p-7">
-                    <h2 >Mission & Vision</h2>
-                    <p>
-                        Traits Global Solutions is a Software company Based out in HiLITE Business Park,Calicut- Kerala. Traits engages in developing and deploying Web applications, ERP solutions, CRMs, Workflow automation solutions,Website development & Hosting, Email-services etc. We help clients manage change and transform their businesses through high-quality, cost-effective business information solutions. Our capability to evolve and be flexible to a dynamic business world will provide us an identity in the mission.
-                        We are dedicated to provide comprehensive, web-enabled, end-to-end information technology and business services to augment our client's businesses.
-                    </p>
+                    {/* Heading from left */}
+                    <motion.h2
+                        initial={{ opacity: 0, x: -100 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        transition={{ duration: 0.8 }}
+                        viewport={{ once: false, amount: 0.3 }}
+                        className="text-3xl font-bold text-white mb-4"
+                    >
+                        Mission & Vision
+                    </motion.h2>
+
+                    {/* Paragraph from right */}
+                    <motion.p
+                        initial={{ opacity: 0, x: 100 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        transition={{ duration: 1 }}
+                        viewport={{ once: false, amount: 0.3 }}
+                        className="text-white leading-relaxed"
+                    >
+                        Traits Global Solutions is a Software company Based out in HiLITE Business Park, Calicut - Kerala. Traits engages in developing and deploying Web applications, ERP solutions, CRMs, Workflow automation
+                        solutions, Website development & Hosting, Email-services etc. We help clients manage change and transform their businesses through high-quality, cost-effective business information solutions. Our
+                        capability to evolve and be flexible to a dynamic business world will provide us an identity in the mission. We are dedicated to provide comprehensive, web-enabled, end-to-end information technology and
+                        business services to augment our client&apos;s businesses.
+                    </motion.p>
                 </div>
             </div>
+
 
         </>
     )

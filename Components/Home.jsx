@@ -3,14 +3,14 @@ import React from 'react'
 function Home() {
   return (
     <>
-    <div 
+      <div
         style={{
           width: "100%", height: "750px", position: "relative", backgroundImage: "url('/Assets/pexels-jakubzerdzicki-16071270.jpg')",
           backgroundSize: "cover", backgroundPosition: "center",
         }}
       >
         {/* Dark overlay */}
-        <div style={{ position: "absolute", inset: 0, backgroundColor: "rgba(0,0,0,0.3)", }}></div>
+        <div style={{ position: "absolute", inset: 0, backgroundColor: "rgba(0,0,0,0.4)" }}></div>
 
         {/* Centered text */}
         <div style={{ position: "relative", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", height: "100%", }} >

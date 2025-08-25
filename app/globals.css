@@ -174,3 +174,39 @@ input[type="checkbox"]:checked+.accordion-label+.content {
     .animate-marquee2 {
       animation: marquee2 19s linear infinite;
     }
+
+
+    /* parallax partners */
+
+    /* parallax */
+.parallax2 {
+  background-image: url("/Assets/pexels-sora-shimazaki-5673475.jpg");
+  min-height: 392px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative;
+  color: white;
+
+  /* align content left */
+  display: flex;
+  align-items: center;  /* vertically center */
+  text-align: left;
+}
+
+/* overlay for readability */
+.parallax2::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+}
+
+.parallax-content2 {
+  position: relative;
+  z-index: 1;
+}
+
+
