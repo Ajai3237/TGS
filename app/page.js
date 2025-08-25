@@ -6,7 +6,7 @@ import Contactpage from './Contact/page';
 import HomePage from './Home/page';
 import Servicespage from './Services/page';
 
-// import { ParallaxProvider, Parallax } from "react-scroll-parallax";
+
 
 export default function Home() {
   return (
