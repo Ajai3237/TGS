@@ -104,7 +104,7 @@ function Clients() {
 
 
 
-            {/* Parallax2 */}
+            {/* Parallax2 partner */}
 
             <div className="parallax2">
                 <div style={{ maxWidth: "1190px", margin: "0 auto" }} className="parallax-content2 flex-1 p-7">
