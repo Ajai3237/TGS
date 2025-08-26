@@ -15,19 +15,25 @@ function Footer() {
                         <h3 className="text-white font-semibold mb-3">Follow Us</h3>
                         <div className="flex gap-3">
                             <a
-                                href="#"
+                                href="https://www.facebook.com/TraitsGlobalSolutions"
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="w-10 h-10 flex items-center justify-center rounded-full bg-[#DA9E27] text-white hover:bg-yellow-500"
                             >
                                 <i className="fa-brands fa-facebook-f"></i>
                             </a>
                             <a
-                                href="#"
+                                href="https://www.instagram.com/traitsglobalsolutions/"
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="w-10 h-10 flex items-center justify-center rounded-full bg-[#DA9E27] text-white hover:bg-yellow-500"
                             >
                                 <i className="fa-brands fa-instagram"></i>
                             </a>
                             <a
                                 href="#"
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="w-10 h-10 flex items-center justify-center rounded-full bg-[#DA9E27] text-white hover:bg-yellow-500"
                             >
                                 <i className="fa-brands fa-youtube"></i>
