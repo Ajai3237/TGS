@@ -3,4 +3,4 @@ const nextConfig = {
   transpilePackages: ["framer-motion"],
 };
 
-export default nextConfig;
+module.exports = nextConfig;
